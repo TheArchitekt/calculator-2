@@ -9,3 +9,6 @@ while True:
 
     if len(tokens) == 1 and 'q' in tokens:
         break
+
+    num1 = float(tokens[1])
+    num2 = float(tokens[2])
