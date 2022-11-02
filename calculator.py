@@ -14,3 +14,5 @@ while True:
     num2 = float(tokens[2])
 
     if len(tokens) == 3:
+        if tokens[0] == '+':
+            total = add(num1, num2)
