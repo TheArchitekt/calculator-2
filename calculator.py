@@ -18,3 +18,5 @@ while True:
             total = add(num1, num2)
         elif tokens[0] == '-':
             total = subtract(num1, num2)
+        elif tokens[0] == '*':
+            total = multiply(num1, num2)
