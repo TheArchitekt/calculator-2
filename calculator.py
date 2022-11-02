@@ -31,4 +31,4 @@ while True:
         elif tokens[0] == 'pow':
             total = power(num1, num2)
 
-print(total)
+    print(total)
