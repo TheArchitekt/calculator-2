@@ -12,3 +12,5 @@ while True:
 
     num1 = float(tokens[1])
     num2 = float(tokens[2])
+
+    if len(tokens) == 3:
