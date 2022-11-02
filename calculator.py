@@ -6,3 +6,6 @@ while True:
     input_string = input('Enter your equation: ')
     tokens = input_string.split(' ')
     total = None
+
+    if len(tokens) == 1 and 'q' in tokens:
+        break
