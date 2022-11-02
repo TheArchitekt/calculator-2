@@ -2,6 +2,6 @@
 
 from arithmetic import (add, subtract, multiply, divide, square, cube,
                         power, mod, )
-
-
-# Replace this with your code
+while True:
+    input_string = input('Enter your equation: ')
+    tokens = input_string.split(' ')
