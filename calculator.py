@@ -28,3 +28,5 @@ while True:
             total = cube(num1, num1)
         elif tokens[0] == 'mod':
             total = mod(num1, num2)
+        elif tokens[0] == 'pow':
+            total = power(num1, num2)
