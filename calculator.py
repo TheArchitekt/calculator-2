@@ -22,3 +22,5 @@ while True:
             total = multiply(num1, num2)
         elif tokens[0] == '/':
             total = divide(num1, num2)
+        elif tokens[0] == 'square':
+            total = square(num1, num1)
