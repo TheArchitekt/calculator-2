@@ -24,3 +24,5 @@ while True:
             total = divide(num1, num2)
         elif tokens[0] == 'square':
             total = square(num1, num1)
+        elif tokens[0] == 'cube':
+            total = cube(num1, num1)
